@@ -9,7 +9,7 @@ const role = db.Role;
 const cors = require("cors");
 
 const corsOption = {
-  origin: "http://localhost:5173", // เปลี่ยน URL ตามที่เหมาะสม
+  origin: "https://midterm-frontend-one.vercel.app", // เปลี่ยน URL ตามที่เหมาะสม
 };
 
 // Dev mode: ใช้สำหรับทดสอบเท่านั้น
